@@ -1,20 +1,46 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🌦️ WeatherWise AI
 
-# Run and deploy your AI Studio app
+> **Intelligent weather insights for safer and smarter decisions.**
 
-This contains everything you need to run your app locally.
+WeatherWise AI is an AI-powered weather intelligence platform that transforms weather data into clear, personalized, and actionable guidance.
 
-View your app in AI Studio: https://ai.studio/apps/b55aa542-18ed-4b38-998f-f8575e7bf4fc
+Instead of only showing temperature and forecasts, it helps users understand **what the weather means and what action they should take**.
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## ✨ Key Features
 
+- 🤖 **AI Weather Assistant** — Ask questions like *"Will it rain tomorrow?"* or *"Kal baarish hogi kya?"*
+- 👤 **Personalized Guidance** — Recommendations for Farmers, Travelers, Emergency Services, and General Citizens.
+- 🛡️ **Weather Safety Intelligence** — Safety scores, risk levels, and actionable advisories.
+- 🌦️ **Weather Forecasting** — Current weather, forecasts, humidity, wind, UV index, rain probability, and more.
+- 🚨 **Smart Weather Alerts** — Important weather risks explained in terms of real-world impact.
+- 🌍 **Multilingual Support** — English, Hindi, and Hinglish.
+- 🔑 **Multiple AI Providers** — Support for Gemini and OpenRouter APIs.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## 🎯 Our Goal
+
+> **Weather data should not only tell people what the weather is — it should help them decide what to do next.**
+
+WeatherWise AI aims to make weather information more understandable, personalized, and useful for everyday decisions.
+
+---
+
+## 🛠️ Technology Stack
+
+**Frontend:** React, TypeScript, Vite  
+**Backend:** Node.js, Express, TypeScript  
+**AI:** Google Gemini API, OpenRouter API  
+**Weather:** Weather APIs, Forecast Processing, Safety Analysis & Alerts
+
+---
+
+## 🚀 Run Locally
+
+```bash
+git clone https://github.com/bharatchahar-dev/WeatherWise-AI.git
+cd WeatherWise-AI
+npm install
+npm run dev
