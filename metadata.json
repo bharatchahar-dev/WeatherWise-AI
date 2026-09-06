@@ -1,0 +1,6 @@
+{
+  "name": "WeatherWise AI",
+  "description": "AI-Powered Weather Intelligence for Every Citizen with live forecasts, smart alerts, safety score, and Gemini conversational assistant.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
